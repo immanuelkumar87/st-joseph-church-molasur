@@ -2853,8 +2853,8 @@ h2.widget-title {
 
 img,
 video {
-	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
+	height: 234px; /* Make sure images are scaled correctly. */
+	max-width: 354px; /* Adhere to container width. */
 }
 
 img.alignleft,

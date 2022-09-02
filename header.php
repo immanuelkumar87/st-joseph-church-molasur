@@ -22,10 +22,17 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
+    <!-- Gallery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <!-- Google fonts-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:500i&amp;display=swap">
+    <!-- gallery section -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500i,700,800" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Swiper slider-->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/vendor/swiper/swiper-bundle.min.css">
     <!-- theme stylesheet-->
@@ -34,7 +41,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/custom.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/costom_style.css">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri();?>/assets/img/favicon.png">
+    <!-- <link rel="shortcut icon" href="<?php echo get_template_directory_uri();?>/assets/img/favicon.png"> -->
     <?php wp_head(); ?>
   </head>
   <body class="scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
@@ -45,10 +52,10 @@
     <div class="col-sm-10">
     	 <ul class="social-network social-circle">
     	<li>
-    	<a href="#" class="icomail" title="gmail"><i class="fas fa-envelope"></i></a></li>	&nbsp;&nbsp;
-		<span class="elementor-icon-list-text">stjoseph@gmail.com</span>&nbsp;&nbsp;
+    	<a href="#" class="icomail" title="gmail"><i class="fas fa-envelope"></i></a></li>
+		<span class="elementor-icon-list-text">sjcmolasur@gmail.com</span>&nbsp;&nbsp;
        &nbsp;&nbsp;
-		<li><a href="#" class="icomobile" title="Mobile"><i aria-hidden="true" class="fas fa-mobile-alt"></i></a></li>&nbsp;&nbsp;
+		<li><a href="#" class="icomobile" title="Mobile"><i aria-hidden="true" class="fas fa-mobile-alt"></i></a></li>
 	<span class="elementor-icon-list-text"> +91 80  25539985</span></ul>
 	 </div>
     <div class="col-sm-2">
@@ -63,7 +70,7 @@
 </div></div>
 
   	<!-- banner section -->
-  	<div class="banner" style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.jpg)">
+  	<div class="banner" style="background: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/img/molasurbanner.jpg)">
    </div>
   	<!-- banner section  end-->
   	<!-- menu section -->

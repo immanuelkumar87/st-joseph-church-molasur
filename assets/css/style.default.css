@@ -623,7 +623,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 176px;
 }
 
 .img-thumbnail {
@@ -4602,7 +4602,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color:#78110c;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
@@ -7678,7 +7678,7 @@ fieldset:disabled .btn {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .mb-auto {
@@ -7818,7 +7818,7 @@ fieldset:disabled .btn {
 }
 
 .pt-5 {
-  padding-top: 3rem !important;
+  padding-top: 1rem !important;
 }
 
 .pe-0 {
@@ -7866,7 +7866,7 @@ fieldset:disabled .btn {
 }
 
 .pb-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 0rem !important;
 }
 
 .ps-0 {
@@ -8016,9 +8016,9 @@ fieldset:disabled .btn {
 }
 
 /* rtl:end:remove */
-.text-primary {
+.text-primaryn {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #78110c;
 }
 
 .text-secondary {
@@ -12122,6 +12122,8 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 .text-serif {
   font-family: "Playfair Display", cursive;
   font-style: italic;
+  font-size: 25px;
+
 }
 
 .list-check li {
