@@ -152,6 +152,9 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+  /*font-family: Georgia;*/
+    font-family: 'Lato';
+    font-weight: 600;
 }
 
 h6, .h6 {
@@ -1139,8 +1142,10 @@ progress {
     width: 25%;
   }
   .col-md-4 {
-    flex: 0 0 auto;
-    width: 33.33333%;
+    /*flex: 0 0 auto;
+    width: 33.33333%;*/
+    flex: 2 0 auto;
+    width: 28.33333%;
   }
   .col-md-5 {
     flex: 0 0 auto;
@@ -2951,12 +2956,7 @@ fieldset:disabled .btn {
   border-color: #8a6d65;
 }
 
-.btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #fff;
-  background-color: #92746b;
-  border-color: #8a6d65;
-  box-shadow: 0 0 0 0.25rem rgba(184, 154, 145, 0.5);
-}
+
 
 .btn-check:checked + .btn-primary,
 .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
@@ -4603,6 +4603,7 @@ fieldset:disabled .btn {
 
 .navbar-dark .navbar-nav .nav-link {
   color:#78110c;
+  font-family:"Georgia", Sans-serif;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
@@ -7663,6 +7664,7 @@ fieldset:disabled .btn {
 
 .mb-1 {
   margin-bottom: 0.25rem !important;
+  font-family: "Lato", sans-serif;
 }
 
 .mb-2 {
@@ -7678,7 +7680,7 @@ fieldset:disabled .btn {
 }
 
 .mb-5 {
-  margin-bottom: 1rem !important;
+  margin-bottom: -1rem !important;
 }
 
 .mb-auto {
@@ -7818,7 +7820,7 @@ fieldset:disabled .btn {
 }
 
 .pt-5 {
-  padding-top: 1rem !important;
+  padding-top: 0rem !important;
 }
 
 .pe-0 {
@@ -8073,9 +8075,19 @@ fieldset:disabled .btn {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
-}
+  color: #1a1a19 !important;
+  font-family: "Lato", sans-serif;
+  text-align: left;
 
+}
+.text-mute{
+   --bs-text-opacity: 1;
+  color: #1a1a19 !important;
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  font-size: 13px;
+  padding-bottom: 11px;
+}
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
@@ -12120,9 +12132,9 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 .text-serif {
-  font-family: "Playfair Display", cursive;
-  font-style: italic;
-  font-size: 25px;
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
 
 }
 

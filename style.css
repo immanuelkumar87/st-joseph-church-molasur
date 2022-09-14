@@ -420,7 +420,7 @@ input,
 select,
 textarea {
 	color: #333;
-	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-family: "Lato", Sans-serif;
 	font-size: 15px;
 	font-size: 0.9375rem;
 	font-weight: 400;
@@ -477,12 +477,14 @@ h4 {
 }
 
 h5 {
-	color: #767676;
-	font-size: 13px;
+	color: #78110c;
+	font-size: 17px;
 	font-size: 0.8125rem;
-	font-weight: 800;
+	font-weight: 600;
 	letter-spacing: 0.15em;
-	text-transform: uppercase;
+	text-transform: capitalize;
+	font-family: lato;
+
 }
 
 h6 {
@@ -575,6 +577,7 @@ blockquote:before,
 blockquote:after {
 	content: "";
 }
+
 
 :focus {
 	outline: none;
@@ -1170,7 +1173,7 @@ td:last-child {
 --------------------------------------------------------------*/
 
 a {
-	color: #222;
+	color: #1a1a19;
 	text-decoration: none;
 }
 

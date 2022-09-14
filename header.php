@@ -49,7 +49,7 @@
   	<div class="social">
 <div class="container">
   <div class="row">
-    <div class="col-sm-10">
+    <div class="col-sm-10" style="text-align: left;" >
     	 <ul class="social-network social-circle">
     	<li>
     	<a href="#" class="icomail" title="gmail"><i class="fas fa-envelope"></i></a></li>
@@ -58,8 +58,8 @@
 		<li><a href="#" class="icomobile" title="Mobile"><i aria-hidden="true" class="fas fa-mobile-alt"></i></a></li>
 	<span class="elementor-icon-list-text"> +91 80  25539985</span></ul>
 	 </div>
-    <div class="col-sm-2">
-&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="col-sm-2" style="text-align: right;">
+<!-- &nbsp;&nbsp;&nbsp;&nbsp; -->
          <ul class="social-network social-circle">
           <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook"></i></a></li>
           <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
@@ -75,13 +75,8 @@
   	<!-- banner section  end-->
   	<!-- menu section -->
 
-  	<style>
-  		.navbarnavbar-expand-md{
-  			color: red;
-  		}
-  	</style>
 <div class="mainmenu">
-	<nav class="navbar navbar-expand-md " role="navigation">
+	<nav class="navbar navbar-expand-md">
 <div class="container">
 	 <?php
         wp_nav_menu( array(
